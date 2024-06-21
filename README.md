@@ -1,12 +1,13 @@
+To highlight the significance of the smooth scrolling for navigation links and the back to top button functionality, you can add a detailed section in your README.md file explaining the purpose and effects of these JavaScript customizations. Here's how you can integrate it:
 
 ```markdown
-# HD-Company
+# Bootstrap 5 Website Replication
 
 This project replicates a one-page website using Bootstrap 5, based on the Braintech Technology IT Solutions HTML Template. The objective is to practice Bootstrap 5 for responsive design and improve HTML/CSS skills by customizing the template.
 
 ## Project Structure
 
-```plaintext
+```
 bootstrap5-website-replication/
 ├── index.html
 ├── css/
@@ -144,3 +145,6 @@ backToTopButton.addEventListener('click', () => {
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This section provides a comprehensive explanation of how the JavaScript enhancements improve the usability and navigation experience of the website, making the customizations clear and valuable to readers.

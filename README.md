@@ -1,5 +1,3 @@
-
-
 ```markdown
 # HD-Company
 

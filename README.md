@@ -1,5 +1,3 @@
-To highlight the significance of the smooth scrolling for navigation links and the back-to-top button functionality, you can add a detailed section in your README.md file explaining the purpose and effects of these JavaScript customizations. Here's how you can integrate it:
-
 ```markdown
 # Bootstrap 5 Website Replication
 

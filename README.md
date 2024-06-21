@@ -1,6 +1,6 @@
 
 ```markdown
-# HD Company
+# HD-Company
 
 This project replicates a one-page website using Bootstrap 5, based on the Braintech Technology IT Solutions HTML Template. The objective is to practice Bootstrap 5 for responsive design and improve HTML/CSS skills by customizing the template.
 
@@ -79,6 +79,56 @@ The custom CSS in `styles.css` is crucial for enhancing the design and user expe
 ### Back to Top Button
 - **Position and Styling**: 
   - Implemented a fixed position and added a hover effect to enhance usability, ensuring users can easily navigate back to the top of the page.
+
+## JavaScript Enhancements
+
+### Smooth Scrolling for Navigation Links
+
+Implemented smooth scrolling for navigation links to provide a seamless user experience. When a navigation link is clicked, the page smoothly scrolls to the corresponding section. This enhances the overall user experience by preventing abrupt jumps and creating a more fluid navigation flow.
+
+```javascript
+document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetSection = document.querySelector(this.getAttribute('href'));
+        targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+});
+```
+
+### Back to Top Button Functionality
+
+Added a back to top button to improve navigation, especially on longer pages. The button appears when the user scrolls down 300 pixels from the top of the document and smoothly scrolls back to the top when clicked. This feature enhances usability by providing a quick way for users to return to the top of the page without having to manually scroll.
+
+```javascript
+const backToTopButton = document.createElement('button');
+backToTopButton.innerText = 'Top';
+backToTopButton.className = 'btn btn-primary back-to-top';
+document.body.appendChild(backToTopButton);
+
+backToTopButton.style.position = 'fixed';
+backToTopButton.style.bottom = '20px';
+backToTopButton.style.right = '20px';
+backToTopButton.style.display = 'none';
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backToTopButton.style.display = 'block';
+    } else {
+        backToTopButton.style.display = 'none';
+    }
+});
+
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+```
 
 ## Technologies Used
 

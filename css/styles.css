@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+#hero {
+    color: black;
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+/* Services Section */
+#services .card {
+    transition: transform 0.3s;
+}
+
+#services .card:hover {
+    transform: scale(1.05);
+}
+
+/* About Section */
+#about {
+    padding: 5rem 0;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 5rem 0;
+}
+
+#portfolio .img-fluid {
+    transition: transform 0.3s;
+}
+
+#portfolio .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Team Section */
+#team {
+    padding: 5rem 0;
+}
+
+#team .card {
+    transition: transform 0.3s;
+}
+
+#team .card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    padding: 5rem 0;
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1000;
+    background-color: #007bff;
+    color:black;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+

@@ -1,12 +1,12 @@
 
 ```markdown
-# Bootstrap 5 Website Replication
+# HD Company
 
 This project replicates a one-page website using Bootstrap 5, based on the Braintech Technology IT Solutions HTML Template. The objective is to practice Bootstrap 5 for responsive design and improve HTML/CSS skills by customizing the template.
 
 ## Project Structure
 
-```
+```plaintext
 bootstrap5-website-replication/
 ├── index.html
 ├── css/

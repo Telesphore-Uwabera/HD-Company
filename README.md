@@ -7,7 +7,7 @@ This project replicates a one-page website using Bootstrap 5, based on the Brain
 
 ## Project Structure
 
-```
+```plaintext
 bootstrap5-website-replication/
 ├── index.html
 ├── css/

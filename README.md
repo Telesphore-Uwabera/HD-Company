@@ -94,4 +94,3 @@ The custom CSS in `styles.css` is crucial for enhancing the design and user expe
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```

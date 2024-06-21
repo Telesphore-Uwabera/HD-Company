@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Website Replication</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/Logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-c8O2+JyMAq4EmJXQDdIvRwlvNpMCSFcM8TAgP4hNif7jZgl1/MoIN9W5H+6P3W5Zbk4a8UskVUxOOItS20nZ0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .custom-container {
+            max-width: 1000px;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/Logo.jpg" alt="Logo" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="d-flex align-items-center text-white" style="background: url('assets/images/hero-bg.jpg') no-repeat center center/cover; height: 100vh;">
+    <div class="container text-center">
+        <h1>Welcome to Our Website</h1>
+        <p>We offer the best IT solutions!</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container custom-container text-black">
+        <h2 class="text-center">About Us</h2>
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <img src="assets/images/about-bg.jpg" class="img-fluid rounded-circle" alt="About Us Image">
+            </div>
+            <div class="col-md-9">
+                <p>We are a team of IT professionals committed to delivering cutting-edge solutions tailored to meet the unique needs of our clients. Our expertise spans across cloud services, cybersecurity, IT support, and more. We believe in fostering long-term relationships with our clients by providing exceptional service and innovative solutions that drive success.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>To empower businesses with reliable and innovative IT solutions that drive growth and efficiency.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                        <p>To be the leading IT solutions provider recognized for excellence and innovation in the industry.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-heart"></i> Our Values</h3>
+                        <p>Integrity, customer focus, innovation, and continuous improvement guide everything we do.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/service1.jpg" class="card-img-top" alt="Cloud Services">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloud Services</h5>
+                        <p class="card-text">Our cloud solutions provide scalable and secure data storage, ensuring business continuity and flexibility.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/service2.jpg" class="card-img-top" alt="Cybersecurity">
+                    <div class="card-body">
+                        <h5 class="card-title">Cybersecurity</h5>
+                        <p class="card-text">Protect your business from cyber threats with our advanced cybersecurity tools and strategies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/service3.jpg" class="card-img-top" alt="IT Support">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Support</h5>
+                        <p class="card-text">Our IT support services ensure that your technology infrastructure is always up and running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/portfolio1.jpg" class="card-img-top" alt="Portfolio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Website</h5>
+                        <p class="card-text">Developed an advanced e-commerce platform for a retail client, integrating payment gateways and enhancing user experience with personalized product recommendations.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/portfolio2.jpg" class="card-img-top" alt="Portfolio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloud Migration Project</h5>
+                        <p class="card-text">Successfully migrated a multinational corporation’s IT infrastructure to the cloud, resulting in cost savings, improved scalability, and enhanced security measures.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/portfolio3.jpg" class="card-img-top" alt="Portfolio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile App Development</h5>
+                        <p class="card-text">Designed and developed a cross-platform mobile application for a startup, achieving over 100,000 downloads within the first year and positive user feedback.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center text-white mb-5">Our Team</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="assets/images/team1.jpg" class="card-img-top rounded" alt="Team Member 1">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">Chief Executive Officer</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:john@gmail.com">john@gmail.com</a></li>
+                            <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                            <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="assets/images/team2.jpg" class="card-img-top rounded-circle" alt="Team Member 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Japhet Smith</h5>
+                        <p class="card-text">Chief Technology Officer</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:japhet@gmail.com">japhet@gmail.com</a></li>
+                            <li><i class="fas fa-phone"></i> +1 (234) 567-8901</li>
+                            <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="assets/images/team3.jpg" class="card-img-top" alt="Team Member 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Johnson</h5>
+                        <p class="card-text">Senior Developer</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:michael@gmail.com">michael@gmail.com</a></li>
+                            <li><i class="fas fa-phone"></i> +1 (345) 678-9012</li>
+                            <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/contact-image.jpg" class="img-fluid" alt="Contact Image">
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <p>&copy; 2024 HD Company. All rights reserved.</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

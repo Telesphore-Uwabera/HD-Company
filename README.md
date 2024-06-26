@@ -1,7 +1,7 @@
 ```markdown
 ## HD-Company
 
-This project replicates a one-page website using Bootstrap 5, based on the Braintech Technology IT Solutions HTML Template. The objective is to practice Bootstrap 5 for responsive design and improve HTML/CSS skills by customizing the template.
+This project replicates a one-page website using Bootstrap 5, based on the Braintech Technology IT Solutions HTML Template. It aims to enhance Bootstrap 5 skills for responsive design and improve HTML/CSS proficiency by customizing the template.
 
 ## Project Structure
 
@@ -24,66 +24,63 @@ To run this project locally:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Telesphore-Uwabera/bootstrap5-website-replication.git
+   git clone https://github.com/Telesphore-Uwabera/HD-Company.git
    ```
 
 2. Open `index.html` in your web browser.
 
 ## Customizations Made
 
-- **Color Scheme**: Modified to match [describe your chosen theme].
-- **Content**: Replaced placeholder text and images with relevant content.
+- **Color Scheme**: Customized to match the chosen theme.
+- **Content**: Replaced placeholder content with relevant information and images.
 - **Additional Features**: Implemented smooth scrolling for navigation links using JavaScript.
 
 ## Custom Styling Significance
 
-The custom CSS in `styles.css` is crucial for enhancing the design and user experience of the website. Here are some key aspects and their significance:
+The custom CSS in `styles.css` plays a crucial role in enhancing the design and user experience of the website. Key aspects include:
 
 ### General Styles
-- **Font and Scroll Behavior**: 
-  - Set the font to 'Roboto' for a clean and modern look.
-  - Implemented smooth scrolling for a seamless navigation experience.
-- **Navbar**: 
-  - Customized the navbar brand to be bold and changed the link colors for better visibility and aesthetics.
+
+- **Font and Scroll Behavior**: Set the font to 'Roboto' and implemented smooth scrolling for navigation.
+- **Navbar**: Customized navbar brand and link colors for improved visibility.
 
 ### Hero Section
-- **Background and Text Alignment**: 
-  - Used a background image with center alignment and cover to make the hero section visually appealing.
-  - Centered text to focus user attention on the main message.
+
+- **Background and Text Alignment**: Centered background image and text for visual appeal.
 
 ### Services Section
-- **Card Hover Effect**: 
-  - Added a scale transform on hover to create an interactive experience, making the section more engaging.
+
+- **Card Hover Effect**: Added hover effect for interactive user experience.
 
 ### About Section
-- **Text Styling**: 
-  - Increased font size and line height for better readability and a more professional appearance.
+
+- **Text Styling**: Enhanced readability with increased font size and line height.
 
 ### Portfolio Section
-- **Image Hover Effect**: 
-  - Similar to the services section, added a scale transform on hover to highlight the portfolio items and encourage user interaction.
+
+- **Image Hover Effect**: Highlighted portfolio items with hover effect.
 
 ### Team Section
-- **Card Hover Effect**: 
-  - Consistent with other sections, applied a hover effect to team member cards to maintain uniformity and interactivity.
+
+- **Card Hover Effect**: Applied hover effect to team member cards for consistency.
 
 ### Contact Section
-- **Form Label Styling**: 
-  - Made form labels bold to ensure they stand out and improve form usability.
+
+- **Form Label Styling**: Improved form usability with bold labels.
 
 ### Footer
-- **Padding and Text Alignment**: 
-  - Added padding for better spacing and ensured text is aligned properly to maintain a clean layout.
+
+- **Padding and Text Alignment**: Enhanced spacing and alignment for a clean layout.
 
 ### Back to Top Button
-- **Position and Styling**: 
-  - Implemented a fixed position and added a hover effect to enhance usability, ensuring users can easily navigate back to the top of the page.
+
+- **Position and Styling**: Added fixed position and hover effect for user convenience.
 
 ## JavaScript Enhancements
 
 ### Smooth Scrolling for Navigation Links
 
-Implemented smooth scrolling for navigation links to provide a seamless user experience. When a navigation link is clicked, the page smoothly scrolls to the corresponding section. This enhances the overall user experience by preventing abrupt jumps and creating a more fluid navigation flow.
+Implemented smooth scrolling for navigation links:
 
 ```javascript
 document.querySelectorAll('a.nav-link').forEach(anchor => {
@@ -100,7 +97,7 @@ document.querySelectorAll('a.nav-link').forEach(anchor => {
 
 ### Back to Top Button Functionality
 
-Added a back to top button to improve navigation, especially on longer pages. The button appears when the user scrolls down 300 pixels from the top of the document and smoothly scrolls back to the top when clicked. This feature enhances usability by providing a quick way for users to return to the top of the page without having to manually scroll.
+Added a back-to-top button:
 
 ```javascript
 const backToTopButton = document.createElement('button');
@@ -134,7 +131,7 @@ backToTopButton.addEventListener('click', () => {
 - **Bootstrap 5**: Front-end framework for responsive design.
 - **HTML5**: Structure and content of the web pages.
 - **CSS3**: Styling and customization.
-- **JavaScript**: Optional for interactivity.
+- **JavaScript**: Enhancing interactivity.
 
 ## Contributors
 
@@ -143,3 +140,6 @@ backToTopButton.addEventListener('click', () => {
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+To visit the HD-Company website, click [here](https://telesphore-uwabera.github.io/HD-Company/).

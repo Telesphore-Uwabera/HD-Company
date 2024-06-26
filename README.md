@@ -1,6 +1,5 @@
 # HD Company
 
-```markdown
 ## HD-Company - Revitalizing Web Design
 
 HD-Company is a project aimed at revitalizing web design through a Bootstrap 5-based recreation of a one-page website, inspired by the Braintech Technology IT Solutions HTML Template. The project focuses on refining Bootstrap 5 skills and enhancing HTML/CSS proficiency by customizing the template.

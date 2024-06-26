@@ -1,4 +1,4 @@
-# SmileSchool - Get Schooled
+# HD Company
 
 ```markdown
 ## HD-Company - Revitalizing Web Design
